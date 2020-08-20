@@ -79,7 +79,7 @@
                 </div>
             @endif
 
-            @livewire('counter')
+            @livewire('counter',['steps'=>5])
     </body>
     @livewireScripts
 </html>
